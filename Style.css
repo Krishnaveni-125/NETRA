@@ -1,0 +1,95 @@
+/*======Global Reset======*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: beige;
+    color: rgb(245, 246, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+button{
+    font-family: inherit;
+    background: beige;
+    color: rgb(9, 94, 5);
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.topbar{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 4%;
+    background-color: rgb(45, 89, 5);
+    border-bottom: 1px solid ;
+}
+
+.brand{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.brand-logo{
+    background: beige;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(45, 89, 5);
+}
+.brand h1{
+    color: rgb(240, 255, 250);
+    letter-spacing: 3px;
+    
+}
+.brand p{
+    color: aliceblue;
+    font-size: 12px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: aliceblue;
+    font-size: 13px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: chartreuse;
+}
+.header-right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: rgb(6, 237, 6);
+    font-size: 11px;
+}
+.online-dot{
+    width: 9px;
+    height: 9px ;
+    background-color: rgb(2, 239, 2);
+    border-radius: 50%;
+}
+#clock{
+    color: aliceblue;
+    font-family: monospace;
+    margin-left: 10px;
+}
